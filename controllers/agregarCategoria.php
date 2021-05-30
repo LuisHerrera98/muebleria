@@ -1,8 +1,8 @@
 
 <?php
 $categoria = $_POST['categoria'];
-$tipo = "tipo1"
-echo $categoria;
+$tipo = "tipo1";
+echo "$categoria";
 include_once "conexion.php";
 
 $query = "INSERT INTO categorias (categoria,tipo) values ('" . $categoria . "','" . $tipo . "');";
